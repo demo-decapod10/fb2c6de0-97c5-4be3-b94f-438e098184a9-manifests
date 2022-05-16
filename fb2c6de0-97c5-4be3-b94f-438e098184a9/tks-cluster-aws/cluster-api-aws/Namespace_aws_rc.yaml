@@ -1,0 +1,10 @@
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: fb2c6de0-97c5-4be3-b94f-438e098184a9
+  labels:
+    name: fb2c6de0-97c5-4be3-b94f-438e098184a9
+    # It bring the secret 'dacapod-argocd-config' using kubed
+    decapod-argocd-config: enabled
+
